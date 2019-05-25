@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:hey_there_app/demo/Message.dart';
+import 'demo/Message.dart';
 
 void main() => runApp(MainApp());
 
