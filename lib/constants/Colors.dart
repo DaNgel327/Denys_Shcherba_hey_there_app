@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ColorList {
-  List<Color> _colors = [
+  static const List<Color> COLORS = [
     Colors.white,
     Colors.red,
     Colors.blue,
@@ -14,6 +14,4 @@ class ColorList {
     Colors.deepPurpleAccent,
     Colors.pink
   ];
-
-  List<Color> get colors => _colors;
 }

@@ -8,14 +8,13 @@ class WidgetCreator extends StatefulWidget {
 }
 
 class BodyRender extends State {
-  ColorList colorList = new ColorList();
   Random random = new Random();
   int index = 0;
 
-  Color getCurrentColor() => colorList.colors[index];
+  Color getCurrentColor() => ColorList.COLORS[index];
 
   void changeIndex() =>
-      setState(() => index = random.nextInt(colorList.colors.length));
+      setState(() => index = random.nextInt(ColorList.COLORS.length));
 
   void reloadIndex() => setState(() => index = 0);
 
