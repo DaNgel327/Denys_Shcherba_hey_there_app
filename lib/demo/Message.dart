@@ -27,7 +27,7 @@ class BodyRender extends State {
         appBar: AppBar(
           title: Text(
             TextConstants.TITLE_TEXT,
-            style: TextStyle(color: Colors.black),
+            style: TextStyle(color: TextConstants.DEFAULT_TEXT_COLOR),
           ),
           backgroundColor: getCurrentColor(),
         ),
@@ -36,7 +36,7 @@ class BodyRender extends State {
             TextConstants.BODY_TEXT,
             style: TextStyle(
               fontWeight: FontWeight.bold,
-              fontSize: 48,
+              fontSize: TextConstants.BODY_TEXT_FONT_SIZE,
             ),
           ),
         ),
@@ -44,7 +44,7 @@ class BodyRender extends State {
         floatingActionButton: FloatingActionButton(
           child: Icon(
             Icons.refresh,
-            color: Colors.black,
+            color: TextConstants.DEFAULT_TEXT_COLOR,
           ),
           backgroundColor: getCurrentColor(),
           onPressed: () => reloadIndex(),
