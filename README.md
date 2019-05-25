@@ -1,6 +1,6 @@
 # hey_there_app
 
-Testing Application
+Testing Application "Hey there" for vacancy Junior Flutter Developer
 
 ## Getting Started
 
