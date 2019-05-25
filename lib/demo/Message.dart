@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
-import '../constants/colors.dart';
-import '../constants/text.dart';
+import '../constants/Colors.dart';
+import '../constants/TextConstants.dart';
 
 class WidgetCreator extends StatefulWidget {
   BodyRender createState() => BodyRender();
